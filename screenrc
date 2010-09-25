@@ -1,0 +1,21 @@
+startup_message off
+msgwait 2
+defscrollback 5000
+defutf8 on
+shell bash
+shelltitle "bash"
+activity "Activity in %t(%n)"
+vbell on
+vbell_msg "bell on %t (%n)"
+
+hardstatus alwayslastline "%{= kW} %{ky} %-w%{= ky}%n %t%{= kw}%+w "
+#hardstatus alwayslastline "%{= kB} %1` %D %d/%m/%y %{W}%C %A %= %{= kW} %{kC} %-w%{= ky}%n %t%{= kC}%+w "
+bind ',' prev
+bind '.' next
+
+screen -t "IM" 0 centerim
+screen -t "RTORRENT" 1 rtorrent
+screen -t "MPD" 2 ncmpcpp
+screen -t "ALPINE" 3 alpine
+screen -t "NETHACK" 4 nethack
+screen -t "SHELL" 5 bash
