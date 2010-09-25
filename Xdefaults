@@ -1,0 +1,56 @@
+/* Jebus .Xdefaults */
+
+/* Lich Low Contrast */
+*color0: #222222
+*color1: #8E5C4E
+*color2: #6C7E55
+*color3: #B89F63
+*color4: #7FB8D8
+*color5: #956D9D
+*color6: #4c8ea1
+*color7: #808080
+*color8: #454545
+*color9: #CC896D
+*color10: #C4DF90
+*color11: #FFE080
+*color12: #B8DDEA
+*color13: #C18FCB
+*color14: #6bc1d0
+*color15: #cdcdcd
+*borderColor: #343434
+*background: #101010
+*foreground: #cdcdcd
+URxvt.cursorColor: #CCCCCC
+URxvt.cursorColor2: #252525
+URxvt.pointerColor: #252525
+URxvt.pointerColor2: #CCFF00
+
+/* Colors */
+!URxvt.background: #111111
+!URxvt.foreground: #EEEEEE
+!URxvt.font: -windows-montecarlo-medium-r-normal--11-110-72-72-c-60-microsoft-cp1252
+!URxvt.font: -*-profont-medium-*-normal--12-120-72-72-c-60-iso8859-*
+URxvt.font: -*-terminus-medium-r-normal--12-*-72-72-c-60-iso8859-*
+URxvt.boldFont: -*-terminus-bold-r-normal--12-*-72-72-c-60-iso8859-*
+!URxvt.boldFont: -windows-montecarlo-bold-r-normal--11-110-72-72-c-60-microsoft-cp1252
+!URxvt.font: -*-terminus-medium-*-normal-*-12-120-72-72-c-60-iso8859-*
+URxvt.colorIT: #FFFFFF
+URxvt.colorBD: #FFFFFF
+URxvt.colorUL: #FF8F00
+URxvt.colorRV: #333333
+URxvt.scrollBar: false
+
+/* matches */
+URxvt.underlineURLs: false
+URxvt.urlLauncher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.cutchars: "()*,<>[]{}|'"
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+URxvt.matcher.launcher.1: /usr/bin/firefox
+
+/* RP-Stuff */
+ratmenu*fgcolor: #eb122e
+ratmenu*bgcolor: #080808
+ratmenu*style: dreary
+ratmenu*persist: false
+ratmenu*align: center
