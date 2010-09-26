@@ -14,8 +14,7 @@ bind ',' prev
 bind '.' next
 
 screen -t "IM" 0 centerim
-screen -t "RTORRENT" 1 rtorrent
-screen -t "MPD" 2 ncmpcpp
-screen -t "ALPINE" 3 alpine
-screen -t "NETHACK" 4 nethack
-screen -t "SHELL" 5 bash
+screen -t "MPD" 1 ncmpcpp
+screen -t "ALPINE" 2 alpine
+screen -t "RTORRENT" 3 rtorrent
+screen -t "SHELL" 4 bash
