@@ -8,7 +8,7 @@ activity "Activity in %t(%n)"
 vbell on
 vbell_msg "bell on %t (%n)"
 
-hardstatus alwayslastline "%{= kW} %{ky} %-w%{= ky}%n %t%{= kw}%+w "
+hardstatus alwayslastline "%{= kW} %{kW} %-w%{= kc}%n %t%{= kW}%+w "
 #hardstatus alwayslastline "%{= kB} %1` %D %d/%m/%y %{W}%C %A %= %{= kW} %{kC} %-w%{= ky}%n %t%{= kC}%+w "
 bind ',' prev
 bind '.' next
