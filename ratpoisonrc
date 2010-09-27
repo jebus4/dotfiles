@@ -64,5 +64,5 @@ set bargravity ne
 set border 1
 set barborder 1
 set inputwidth 800
-
-
+set guiheadroom=0
+set guiheadroom 0
