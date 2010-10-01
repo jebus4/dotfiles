@@ -37,3 +37,24 @@ alias pacman='pacman-color'
 alias rec='ffmpeg -f x11grab -s 3360x1050 -r 150 -i :0.0 -sameq /tmp/foo.mpg'
 
 
+x () {
+     if [ -f $1 ] ; then
+         case $1 in
+             *.tar.bz2)   bsdtar -xf $1        ;;
+             *.tar.gz)    bsdtar -xf $1     ;;
+             *.bz2)       bunzip2 $1       ;;
+             *.rar)       unrar x $1     ;;
+             *.gz)        gunzip $1     ;;
+             *.tar)       tar xf $1        ;;
+             *.tbz2)      tar xjf $1      ;;
+             *.tgz)       tar xzf $1       ;;
+             *.tbz)       bsdtar -xf $1       ;;
+             *.zip)       unzip $1     ;;
+             *.Z)         uncompress $1  ;;
+             *.7z)        7z x $1    ;;
+             *)           echo "'$1' cannot be extracted via x()" ;;
+         esac
+     else
+         echo "'$1' is not a valid file"
+     fi
+}
