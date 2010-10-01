@@ -8,4 +8,4 @@ short_units yes
 if_up_strictness address
 
 TEXT
-^bg(\#101010)^fg(\#CCFF00)$kernel ^fg(\#FFFFFF)| ^fg(\#1793d1)CPU: ^fg(\#FFFFFF)$loadavg ^fg(\#1793d1)[^fg(\#FFFFFF)$cpu%^fg(\#1793d1)] ^fg(\#FFFFFF)| ^fg(\#1793d1)MEM: ^fg(\#FFFFFF)$mem ^fg(\#GGGGGG)| ^fg(\#1793d1)[^fg(\#FFFFFF)${time ^fg(\#EEEEEE)%A ^fg(\#DDDDDD)%e ^fg(\#FFFFFF)%B ^fg(\#BBBBBB)%R}^fg(\#1793d1)]
+^bg(\#333333)^fg(\#CCFF00)$kernel ^fg(\#FFFFFF)| ^fg(\#FFFFFF)CPU: ^fg(\#FFFFFF)$loadavg ^fg(\#FFFFFF)[^fg(\#FFFFFF)$cpu%^fg(\#FFFFFF)] ^fg(\#FFFFFF)| ^fg(\#FFFFFF)MEM: ^fg(\#FFFFFF)$mem ^fg(\#GGGGGG)| ^fg(\#FFFFFF)${time ^fg(\#EEEEEE)%A ^fg(\#DDDDDD)%e ^fg(\#FFFFFF)%B ^fg(\#BBBBBB)%R}^fg(\#FFFFFF)

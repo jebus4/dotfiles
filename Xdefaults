@@ -18,7 +18,7 @@
 *color14: #6bc1d0
 *color15: #cdcdcd
 *borderColor: #202020
-*background: #101010
+*background: #111111
 *foreground: #cdcdcd
 URxvt.cursorColor: #CCCCCC
 URxvt.cursorColor2: #252525

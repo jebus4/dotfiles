@@ -3,42 +3,23 @@ startup_message off
 
 exec xsetroot -solid black -cursor_name left_ptr
 exec rpws init 3 -k
-exec conky | dzen2 -bg '#101010' -fn -*-terminus-medium-*-normal-*-12-120-72-72-c-60-iso8859-* -ta r -y 0 -x 0
+exec conky | dzen2 -bg '#333333' -fn -*-terminus-medium-*-normal-*-12-120-72-72-c-60-iso8859-* -ta r -y 0 -x 0
 
 bind o only
 bind v hsplit
 bind h vsplit
 bind g colon exec firefox http://www.gogle.com/search?q=
 bind f exec ratpoison -c "echo Launching Firefox..." && exec firefox
-bind a exec ratpoison -d :0.0 -c "echo `date +'%r - %A %n    %D - %B'`
- `cal | tail +2 | sed -e 's/^Su/\n\n Su/' -e 's/.*/ & /' -e \"s/\
- $(date +%e)\ /\<$(date +%e)\>/\"`"
-
-definekey top M-Tab focusprev
-definekey top M-C-Left exchangeleft
-definekey top M-C-Right exchangeright
-definekey top M-C-Up exchangeup
-definekey top M-C-Down exchangedown
-definekey top M-Left resize -20 0
-definekey top M-Right resize 20 0
-definekey top M-Up resize 0 20
-definekey top M-Down resize 0 -20
-definekey top M-w windows
+definekey top M-S-Return exec urxvtc
+definekey top M-m exec $(dmenu_path | dmenu -nb "#000000" -nf "#CCFF00" -sb "#111111" -sf "#CCFF00" -fn '-*-terminus-normal-r-*-*-12-*-*-*-*-*-iso8859-1'
 definekey top M-1 exec rpws 1
 definekey top M-2 exec rpws 2
 definekey top M-3 exec rpws 3
-definekey top M-S-Return exec urxvtc
-definekey top M-m exec $(dmenu_path | dmenu -nb "#000000" -nf "#CCFF00" -sb "#111111" -sf "#CCFF00" -fn '-*-terminus-normal-r-*-*-12-*-*-*-*-*-iso8859-1')
+definekey top M-w windows
 
-set winname title
-set winfmt %n %s %t
-set winliststyle column
-set fwcolor #101010
-set fgcolor #CCFF00
-set bgcolor #101010
-set font Terminus-10
 set padding 0 14 0 0
-set barpadding 1 0
-set border 0
-set barborder 0
+set font Terminus-10
+set bgcolor #333333
+set fgcolor #FFFFFF
+set winname title
 set waitcursor 1
