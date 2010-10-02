@@ -13,8 +13,8 @@ hardstatus alwayslastline "%{= kW} %{kW} %-w%{= kc}%n %t%{= kW}%+w "
 bind ',' prev
 bind '.' next
 
-screen -t "IM" 0 centerim
-screen -t "MPD" 1 ncmpcpp
-screen -t "ALPINE" 2 alpine
-screen -t "RTORRENT" 3 rtorrent
-screen -t "SHELL" 4 bash
+screen -t "mail" 0 alpine
+screen -t "mpd" 1 ncmpcpp
+screen -t "msn" 2 centerim
+screen -t "rtorrent" 3 rtorrent
+screen -t "bash" 4 bash

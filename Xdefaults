@@ -17,13 +17,13 @@
 *color13: #C18FCB
 *color14: #6bc1d0
 *color15: #cdcdcd
-*borderColor: #202020
+*borderColor: #a0a0a0
 *background: #111111
 *foreground: #cdcdcd
-URxvt.cursorColor: #CCCCCC
+URxvt.cursorColor: #aaaaaa
 URxvt.cursorColor2: #252525
 URxvt.pointerColor: #252525
-URxvt.pointerColor2: #1793d1
+URxvt.pointerColor2: #FFFFFF
 
 /* Colors */
 !URxvt.background: #111111
@@ -36,7 +36,7 @@ URxvt.boldFont: -*-terminus-bold-r-normal--12-*-72-72-c-60-iso8859-*
 !URxvt.font: -*-terminus-medium-*-normal-*-12-120-72-72-c-60-iso8859-*
 URxvt.colorIT: #FFFFFF
 URxvt.colorBD: #FFFFFF
-URxvt.colorUL: #DD00FF
+URxvt.colorUL: #0000cc
 URxvt.colorRV: #333333
 URxvt.scrollBar: false
 

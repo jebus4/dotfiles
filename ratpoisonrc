@@ -15,7 +15,7 @@ definekey top M-m exec $(dmenu_path | dmenu -nb "#000000" -nf "#CCFF00" -sb "#11
 definekey top M-1 exec rpws 1
 definekey top M-2 exec rpws 2
 definekey top M-3 exec rpws 3
-definekey top M-w windows
+definekey top M-w exec ratpoison -c "select `ratpoison -c "windows" | dmenu | awk '{print $1}'`"
 
 set padding 0 14 0 0
 set font Terminus-10
@@ -23,3 +23,5 @@ set bgcolor #333333
 set fgcolor #FFFFFF
 set winname title
 set waitcursor 1
+set border 0
+set barborder 0
